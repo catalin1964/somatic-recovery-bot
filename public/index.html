@@ -535,8 +535,6 @@ async function sendMessage(textOverride) {
 
   field.value = "";
   autoResize(field);
-  document.getElementById("chips").style.display = "none";
-
   appendMessage("user", text);
   conversationHistory.push({ role: "user", content: text });
 
